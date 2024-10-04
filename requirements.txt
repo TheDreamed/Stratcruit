@@ -1,9 +1,9 @@
 streamlit
 openai
-langchain-openai
+langchain
+langchain_openai
+langchain_community
 sqlalchemy
-langchain-community
-docx
 PyPDF2
+python-docx
 python-dotenv
-exceptions
