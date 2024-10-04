@@ -14,8 +14,8 @@ from dotenv import load_dotenv
 import json
 
 # Load the API key from secrets.env
-load_dotenv('secrets.env')
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai_api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = openai_api_key
 
 # Initialize the SQLite database connection
 engine = create_engine('sqlite:///resumes.db')
