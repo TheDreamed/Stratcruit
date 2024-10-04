@@ -232,7 +232,7 @@ agent = create_react_agent(model, tools, sql_prompt)
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
 # Streamlit app UI
-st.title("AI-Powered Resume Filtering with GPT-4")
+st.title("StratCruit - HR Resume Filtering 💼")
 
 # Create the database if it doesn't exist
 create_resume_db()
@@ -300,7 +300,7 @@ def query_db_tool(query):
 
 # Chat interface
 # Chat interface
-st.title("Resume Query Chatbot")
+st.title("👨‍💼 Ask me about them!")
 
 # Display chat messages
 for message in st.session_state.messages:
