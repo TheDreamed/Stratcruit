@@ -6,3 +6,4 @@ langchain-community
 docx
 PyPDF2
 python-dotenv
+exceptions
